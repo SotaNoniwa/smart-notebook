@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Smart Notebook
 
-## Getting Started
+![screenshot](./assets/smart_notebook.png)
 
-First, run the development server:
+## A simple Notebook with power of AI
+This app makes easier to take a note. You can not only take a note manually, but also advantage the AI power, such as generating automatic text and image.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![demo](./assets/demo.mov)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
+- Authentication with Clerk
+- Make a new note
+- Edit a note
+- H1, H2,... H6, bold, italic, etc...
+- Automatically generated text by **openAI gpt-3.5-turbo**
+- Automatically generated image by **openAI DALL-E-3**
+- Delete a note
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Technologies
+1. **Next.js**: A React framework that simplifies server-side rendering, routing, and other advanced features, streamlining the development of scalable and performant web applications.
+2. **Shadcd (Radix UI and Tailwind CSS)**: Used for building accessible, high-performance UI components and Tailwind CSS for utility-first styling, offering a powerful toolkit for modern and responsive web design.
+3. **OpenAI**: An artificial intelligence research laboratory that develops advanced natural language processing models, such as GPT-3, to enable innovative applications in various domains.
+4. **Vercel Edge runtime**:  A serverless platform that leverages edge computing to deploy and run applications closer to end-users, enhancing performance and reducing latency in web applications.
+5. **DrizzleORM**: An Object-Relational Mapping (ORM) library that simplifies database interactions for developers by providing an abstraction layer between the application code and the database, facilitating data manipulation.
+6. **NeonDB**: A database management system designed for ease of use and scalability, offering features like automatic sharding and high availability to support the development of modern, data-intensive applications.
+7. **Firebase Storage**: A cloud storage service provided by Google Firebase, enabling developers to securely store and retrieve user-generated content such as images, videos, and other files in the cloud.
+8. **TipTap WYSIWYG Editor**: A WYSIWYG (What You See Is What You Get) editor for Vue.js and JavaScript, providing a simple and customizable way to implement rich text editing in web applications.
+9. **Vercel AI SDK**: A software development kit that integrates artificial intelligence capabilities into applications deployed on the Vercel platform, allowing developers to leverage AI functionality seamlessly in their projects.
