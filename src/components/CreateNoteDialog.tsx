@@ -39,9 +39,11 @@ const CreateNoteDiglog = (props: Props) => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (input === "") {
-      window.alert("Please enter a name for your notebook");
-      return;
+    if (typeof window !== "undefined") {
+      if (input === "") {
+        window.alert("Please enter a name for your notebook");
+        return;
+      }
     }
     createNotebook.mutate(undefined, {
       onSuccess: ({ note_id }) => {
