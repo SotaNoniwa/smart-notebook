@@ -26,7 +26,7 @@ const DeleteButton = ({ noteId }: Props) => {
       size="sm"
       disabled={deleteNote.isPending}
       onClick={() => {
-        const confirm = window.confirm(
+        const confirm = window?.confirm(
           "Are you sure you want to delete the notebook?"
         );
         if (!confirm) return;
