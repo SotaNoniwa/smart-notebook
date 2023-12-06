@@ -1,6 +1,8 @@
 # Smart Notebook
 
-![screenshot](./assets/smart_notebook.png)
+## Try on web
+
+https://smart-notion-sotanoniwas-projects.vercel.app/
 
 ## A simple Notebook with power of AI
 This app makes easier to take a note. You can not only take a note manually, but also advantage the AI power, such as generating automatic text and image.
