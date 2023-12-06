@@ -6,8 +6,7 @@
 This app makes easier to take a note. You can not only take a note manually, but also advantage the AI power, such as generating automatic text and image.
 
 ## Demo
-
-![demo](./assets/demo.mov)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/1HAatmZvKto/0.jpg)](http://www.youtube.com/watch?v=1HAatmZvKto "Demo")
 
 ## Features
 - Authentication with Clerk
