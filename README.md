@@ -21,7 +21,7 @@ This app makes easier to take a note. You can not only take a note manually, but
 
 ## Technologies
 1. **Next.js**: A React framework that simplifies server-side rendering, routing, and other advanced features, streamlining the development of scalable and performant web applications.
-2. **Shadcd (Radix UI and Tailwind CSS)**: Used for building accessible, high-performance UI components and Tailwind CSS for utility-first styling, offering a powerful toolkit for modern and responsive web design.
+2. **Shadcn (Radix UI and Tailwind CSS)**: Used for building accessible, high-performance UI components and Tailwind CSS for utility-first styling, offering a powerful toolkit for modern and responsive web design.
 3. **OpenAI**: An artificial intelligence research laboratory that develops advanced natural language processing models, such as GPT-3, to enable innovative applications in various domains.
 4. **Vercel Edge runtime**:  A serverless platform that leverages edge computing to deploy and run applications closer to end-users, enhancing performance and reducing latency in web applications.
 5. **DrizzleORM**: An Object-Relational Mapping (ORM) library that simplifies database interactions for developers by providing an abstraction layer between the application code and the database, facilitating data manipulation.

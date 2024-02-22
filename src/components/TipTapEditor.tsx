@@ -60,7 +60,7 @@ const TipTapEditor = ({ note }: Props) => {
     editor.commands.insertContent(diff);
   }, [completion, editor]);
 
-  const debounceEditorState = useDebounce(editorState, 500);
+  const debounceEditorState = useDebounce(editorState, 1000);
 
   useEffect(() => {
     // save to db

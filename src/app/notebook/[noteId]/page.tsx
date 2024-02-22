@@ -1,3 +1,6 @@
+// api/notebook/[noteId]
+// Dynamic Routing in Next.js
+
 import DeleteButton from "@/components/DeleteButton";
 import TipTapEditor from "@/components/TipTapEditor";
 import { Button } from "@/components/ui/button";
@@ -16,6 +19,7 @@ type Props = {
   };
 };
 
+// extract noteId from URL path and pass it as Props
 const NotebookPage = async ({ params: { noteId } }: Props) => {
   const { userId } = await auth();
   if (!userId) {
